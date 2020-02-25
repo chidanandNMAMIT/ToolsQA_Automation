@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2026" started-at="2020-01-12T18:43:43Z" finished-at="2020-01-12T18:43:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2026" started-at="2020-01-12T18:43:43Z" finished-at="2020-01-12T18:43:45Z">
+      <class name="com.qa.ToolsQa.TestCases.Exceeldata">
+        <test-method status="FAIL" signature="readexcel(java.lang.String, long, int, java.lang.String)[pri:0, instance:com.qa.ToolsQa.TestCases.Exceeldata@26653222]" name="readexcel" duration-ms="1962" started-at="2020-01-13T00:13:43Z" data-provider="printexcel" finished-at="2020-01-13T00:13:45Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: readexcel([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=long, declaredAnnotations=[]}, Parameter{index=2, type=int, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)aravnd,(java.lang.String)1.42637899E9,(java.lang.String)560037.0,(java.lang.String)10th cross,7main]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: readexcel([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=long, declaredAnnotations=[]}, Parameter{index=2, type=int, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)aravnd,(java.lang.String)1.42637899E9,(java.lang.String)560037.0,(java.lang.String)10th cross,7main]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readexcel -->
+      </class> <!-- com.qa.ToolsQa.TestCases.Exceeldata -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
